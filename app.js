@@ -87,7 +87,7 @@ if (form) {
       '{ご担当者名}': data.person,
       '{お申込みの内容}': PRODUCTS[data.product].label,
       '{送信日時}': '確認用（まだ送信されていません）',
-      '【ダウンロード先URL】': FORM_SETTINGS.freeDownloadUrl || '［本番公開前に設定］',
+      '【ダウンロード先URL】': FORM_SETTINGS.freeDownloadUrl || '［本番の自動返信メールに配布URLを表示］',
       '【料金表URL】': new URL(data.product.startsWith('h-') ? 'harassment.html#detail' : 'notice.html#detail', location.href).href,
     };
     let text = EMAIL_TEMPLATES[data.route];
@@ -201,7 +201,7 @@ if (form) {
     } else completed.append(element('p', 'これは制作確認用の画面です。お申込みは受け付けておらず、入力内容の送信・保存やメール配信も行っていません。', 'notice'));
     const next = element('div', undefined, 'completion-next');
     next.append(element('h3', live ? '今後の流れ' : '本番での受付後の流れ'), element('p', routeDescription(data.product, data.contract)));
-    if (!live && data.product === 'n-template') next.append(element('p', '無料雛形のダウンロード先は、確定後に設定します。', 'muted'));
+    if (!live && data.product === 'n-template') next.append(element('p', '無料雛形のダウンロード先は、本番の自動返信メールでご案内します。確認用画面には表示しません。', 'muted'));
     else if (data.product === 'h-template' && data.contract === 'yes') next.append(element('p', '雛形のダウンロード先は、担当者からメールでご案内します。', 'muted'));
     else if (data.product === 'h-template') next.append(element('p', '雛形一式は14ファイル、約1MBです。添付ファイルを受け取れない設定の場合は、担当者へお知らせください。別の方法でお届けします。', 'muted'));
     next.append(element('p', '担当窓口：社会保険労務士法人 合同経営　林\n' + FORM_SETTINGS.replyToEmail));
