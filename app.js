@@ -175,7 +175,10 @@ if (form) {
     conditions.forEach(([label, value]) => {
       const tr = element('tr'), th = element('th', label);
       th.scope = 'row';
-      tr.append(th, element('td', value)); body.append(tr);
+      const td = element('td');
+      if (label === '返品・キャンセル' || label === 'キャンセル') td.append(element('strong', value));
+      else td.textContent = value;
+      tr.append(th, td); body.append(tr);
     });
     table.append(body);
     section.append(title, table, commerceLink('特定商取引法に基づく表示を読む ↗'));
