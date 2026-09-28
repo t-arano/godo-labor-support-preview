@@ -4,6 +4,7 @@ const NOTIFICATION_TEMPLATE="件名：【申込】{ご希望の内容}／{会社
 
 const FORM_SETTINGS = Object.freeze({
   mode: window.GODO_FORM_CONFIG?.mode === 'live' ? 'live' : 'preview',
+  accepting: window.GODO_FORM_CONFIG?.accepting,
   apiBase: window.GODO_FORM_CONFIG?.apiBase || '',
   serviceBaseUrl: window.GODO_FORM_CONFIG?.serviceBaseUrl || new URL('.', location.href).href,
   notificationEmail: 'sr@godo-k.co.jp',
@@ -61,11 +62,15 @@ if (form) {
   const contract = () => form.querySelector('[name=contract]:checked')?.value || '';
   let confirmed = null;
   const live = FORM_SETTINGS.mode === 'live';
+  const intakeClosed = live && FORM_SETTINGS.accepting === false;
   if (live) {
     document.querySelector('.preview')?.remove();
     const note = document.querySelector('#form-intro');
-    note.textContent = '入力内容をご確認のうえ、お申込み・ご依頼ください。受付内容を担当者へ通知し、ご入力のメールアドレスへ自動返信をお送りします。';
+    note.textContent = intakeClosed
+      ? '現在、受付の準備中です。お問い合わせは ' + FORM_SETTINGS.replyToEmail + ' へお願いいたします。'
+      : '入力内容をご確認のうえ、お申込み・ご依頼ください。受付内容を担当者へ通知し、ご入力のメールアドレスへ自動返信をお送りします。';
     note.className = 'live-form-note';
+    if (intakeClosed) form.querySelectorAll('fieldset, button[type="submit"]').forEach(control => { control.disabled = true; });
     document.querySelector('.copyright').textContent = '© 社会保険労務士法人 合同経営';
   }
 
@@ -299,7 +304,7 @@ if (form) {
   form.addEventListener('change', update);
   form.addEventListener('submit', event => {
     event.preventDefault();
-    if (!form.reportValidity()) return;
+    if (intakeClosed || !form.reportValidity()) return;
     const p = product(), c = contract();
     if (!PRODUCTS[p] || !['yes', 'no'].includes(c)) return;
     const values = new FormData(form);
