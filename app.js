@@ -1,23 +1,47 @@
-const EMAIL_TEMPLATES={"A": "件名：【合同経営】労働条件通知書（パート・有期用）雛形のダウンロードのご案内\n\n{会社名}\n{ご担当者名} 様\n\n社会保険労務士法人 合同経営です。雛形のご請求をありがとうございます。\n2026年10月1日改正に対応した「労働条件通知書（パート・有期用）」の雛形・記載例・使い方ガイドは、次のリンクからダウンロードできます。\n\nダウンロード：【ダウンロード先URL】\n（ダウンロード先のURLは変更する場合があります。リンクが開けない場合は、このメールに返信してください）\n\n■ 使い方\n・「使い方ガイド」の「２．記入欄の埋め方」の順に、雛形の空欄（【　】で示した箇所）を埋めてください。\n・今お使いの様式に1項目を足すだけで済ませたい場合は、ガイドの「７．追記文案」をご覧ください。\n・有期契約の更新は新たな雇入れに当たります。10月1日以降の契約更新から新様式で交付してください。\n\n■ ご利用条件\n雛形は貴社の自社利用に限ります。再配布・転売はできません。詳しくは雛形巻末の「ご利用条件」をご覧ください。\n\n■ 様式の点検・改訂のご支援\n今お使いの様式の点検（個別チェック。16,500円／1様式、税込。税抜 15,000円）や、給与ソフト出力・Excel様式の改訂をご希望の場合は、このメールに氏名等を記入していない空欄の様式を添付して返信してください。資料を拝見したうえで、納期をご相談します（当法人の顧問先の皆様には、顧問契約に基づき別途ご案内します）。\n\n――――――――――――――――――――\n社会保険労務士法人 合同経営　受付担当：林\n住所：〒760-0080　香川県高松市木太町3396番地11\n電話：087-812-5031　FAX：087-812-5036\nメール：sr@godo-k.co.jp\nこのメールは、フォームからご請求いただいた方に自動送信しています。\n顧問先の皆様には、顧問契約に基づき、法改正に関するご案内をお送りしています。一般のお客様には、フォームで「受け取る」を選ばれた方にのみお送りします。いずれも不要になった場合は sr@godo-k.co.jp までお知らせください。次回から送信しません。\n――――――――――――――――――――", "B": "件名：【合同経営】お申込み・ご依頼を受け付けました（{ご希望の内容}）\n\n{会社名}\n{ご担当者名} 様\n\n社会保険労務士法人 合同経営です。お申込み・ご依頼をありがとうございます。次の内容で受け付けました。\n\nご希望の内容：{ご希望の内容}\n受付日時：{送信日時}\n\n■ 今後の流れ\n・雛形一式：お申込み確認後3営業日以内に、ダウンロード先をメールでお送りします。\n・個別チェック＋適用支援（カスハラ対策）、個別チェック・適用支援（労働条件通知書）、社員研修会：資料を拝見したうえで、納期をご相談します。担当（林）から2営業日以内にご連絡し、資料の受領後2営業日以内に納期と金額をお知らせします。点検をご希望の様式や規程は、氏名等を記入していない空欄のものを、このメールに添付して返信してください。社員研修会はご希望の日時と人数をお知らせください。\n\n■ 料金とお支払い\n料金は顧問契約に基づき、担当からご案内します。ご請求が生じる場合は顧問料と合わせてご請求します。\n\n――――――――――――――――――――\n社会保険労務士法人 合同経営　受付担当：林\n住所：〒760-0080　香川県高松市木太町3396番地11\n電話：087-812-5031　FAX：087-812-5036\nメール：sr@godo-k.co.jp\nこのメールは、フォームからお申込み・ご依頼いただいた方に自動送信しています。\n顧問契約に基づき、法改正に関するご案内をお送りしています。不要になった場合は sr@godo-k.co.jp までお知らせください。次回から送信しません。\n――――――――――――――――――――", "C": "件名：【合同経営】お申込み・ご依頼を受け付けました（{ご希望の内容}）\n\n{会社名}\n{ご担当者名} 様\n\n社会保険労務士法人 合同経営です。お申込み・ご依頼をありがとうございます。次の内容で受け付けました。\n\nご希望の内容：{ご希望の内容}\n受付日時：{送信日時}\n\n■ 今後の流れ\n・雛形一式：内容を確認のうえ請求書をメールでお送りします。ご入金確認後、当法人から雛形一式（14ファイル）を ZIP ファイルにしてメールに添付してお送りします（ご入金確認後3営業日以内。約1MBです。添付ファイルを受け取れない設定の場合はお知らせください。別の方法でお届けします）。\n・個別チェック＋適用支援（カスハラ対策）、個別チェック・適用支援（労働条件通知書）、社員研修会：資料を拝見したうえで、納期をご相談します。担当（林）から2営業日以内にご連絡し、資料の受領後2営業日以内に納期と金額をお知らせします。点検をご希望の様式や規程は、氏名等を記入していない空欄のものを、このメールに添付して返信してください。社員研修会はご希望の日時と人数をお知らせください。納期と金額（社員研修会は日程と金額）にご了承いただいた時点で契約が成立します。その後、請求書をお送りし、ご入金確認後に作業を始めます。\n\n■ お支払い\n請求書を発行しますので、請求書の発行日から7日以内に銀行振込でお支払いください（振込手数料はお客様のご負担です。期限までにご入金がない場合は、雛形一式はお申込みを取り消したものとして、個別のご支援・社員研修会はご契約を解除したものとして扱います）。雛形一式は電子ファイルのため、お届けした後の返品・返金はお受けしていません。料金は料金表（【料金表URL】）のとおりです。\n\n――――――――――――――――――――\n社会保険労務士法人 合同経営　受付担当：林\n住所：〒760-0080　香川県高松市木太町3396番地11\n電話：087-812-5031　FAX：087-812-5036\nメール：sr@godo-k.co.jp\nこのメールは、フォームからお申込み・ご依頼いただいた方に自動送信しています。\n法改正に関する案内メールは、フォームで「受け取る」を選ばれた方にのみお送りします。不要になった場合は sr@godo-k.co.jp までお知らせください。次回から送信しません。\n――――――――――――――――――――"};
+const EMAIL_TEMPLATES={"A": "件名：【合同経営】労働条件通知書（パート・有期用）雛形のダウンロードのご案内\n\n{会社名}\n{ご担当者名} 様\n\n社会保険労務士法人 合同経営です。雛形のご請求をありがとうございます。\n2026年10月1日改正に対応した「労働条件通知書（パート・有期用）」の雛形・記載例・使い方ガイド（9ファイル）は、次のリンクからダウンロードできます。\n\nダウンロード：【ダウンロード先URL】\n（ダウンロード先のURLは変更する場合があります。リンクが開けない場合は、このメールに返信してください）\n\n■ 使い方\n・「使い方ガイド」の「２．記入欄の埋め方」の順に、雛形の空欄（【　】で示した箇所）を埋めてください。\n・今お使いの様式に1項目を足すだけで済ませたい場合は、ガイドの「７．追記文案」をご覧ください。\n・有期契約の更新は新たな雇入れに当たります。10月1日以降の契約更新から新様式で交付してください。\n\n■ ご利用条件\n雛形は貴社の自社利用に限ります。再配布・転売はできません。詳しくは雛形巻末の「ご利用条件」をご覧ください。\n\n■ 様式の点検・改訂のご支援\n今お使いの様式の点検（個別チェック。16,500円／1様式、税込。税抜 15,000円）や、給与ソフト出力・Excel様式の改訂をご希望の場合は、このメールに氏名等を記入していない空欄の様式を添付して返信してください。資料を拝見したうえで、納期をご相談します（当法人の顧問先の皆様には、顧問契約に基づき別途ご案内します）。\n\n――――――――――――――――――――\n社会保険労務士法人 合同経営　受付担当：林\n住所：〒760-0080　香川県高松市木太町3396番地11\n電話：087-812-5031　FAX：087-812-5036\nメール：sr@godo-k.co.jp\nこのメールは、フォームからご請求いただいた方に自動送信しています。\n顧問先の皆様には、顧問契約に基づき、法改正に関するご案内をお送りしています。一般のお客様には、フォームで「受け取る」を選ばれた方にのみお送りします。いずれも不要になった場合は sr@godo-k.co.jp までお知らせください。次回から送信しません。\n――――――――――――――――――――", "B": "件名：【合同経営】お申込み・ご依頼を受け付けました（{ご希望の内容}）\n\n{会社名}\n{ご担当者名} 様\n\n社会保険労務士法人 合同経営です。お申込み・ご依頼をありがとうございます。次の内容で受け付けました。\n\nご希望の内容：{ご希望の内容}\n受付日時：{送信日時}\n\n■ 今後の流れ\n〔カスハラ対策の雛形一式〕\nカスタマーハラスメント・就活等セクハラ対策の雛形一式（14ファイル）は、お申込み確認後3営業日以内に、ダウンロード先をメールでお送りします。\n〔個別チェック＋適用支援〕\n資料を拝見したうえで、納期をご相談します。担当（林）から2営業日以内にご連絡し、資料の受領後2営業日以内に納期と金額をお知らせします。点検をご希望の規程は、氏名等を記入していない空欄のものを、このメールに添付して返信してください。\n〔社員研修会〕\n担当（林）から2営業日以内にご連絡し、日程と金額をご相談します。ご希望の日時と人数を、このメールに返信してお知らせください。\n〔労働条件通知書の個別チェック・適用支援〕\n資料を拝見したうえで、納期をご相談します。担当（林）から2営業日以内にご連絡し、資料の受領後2営業日以内に納期と金額をお知らせします。点検・改訂をご希望の様式は、氏名等を記入していない空欄のものを、このメールに添付して返信してください。\n\n■ 料金とお支払い\n料金は顧問契約に基づき、担当からご案内します。ご請求が生じる場合は顧問料と合わせてご請求します。\n\n――――――――――――――――――――\n社会保険労務士法人 合同経営　受付担当：林\n住所：〒760-0080　香川県高松市木太町3396番地11\n電話：087-812-5031　FAX：087-812-5036\nメール：sr@godo-k.co.jp\nこのメールは、フォームからお申込み・ご依頼いただいた方に自動送信しています。\n顧問契約に基づき、法改正に関するご案内をお送りしています。不要になった場合は sr@godo-k.co.jp までお知らせください。次回から送信しません。\n――――――――――――――――――――", "C": "件名：【合同経営】お申込み・ご依頼を受け付けました（{ご希望の内容}）\n\n{会社名}\n{ご担当者名} 様\n\n社会保険労務士法人 合同経営です。お申込み・ご依頼をありがとうございます。次の内容で受け付けました。\n\nご希望の内容：{ご希望の内容}\n受付日時：{送信日時}\n\n■ 今後の流れ\n〔カスハラ対策の雛形一式〕\nお支払いは、クレジットカードまたは銀行振込をお選びいただけます。\n・クレジットカードの場合\n次の決済ページで、お申込みから7日以内にお手続きください。決済ページでは、このメールの宛先と同じメールアドレスをご入力ください。\n決済ページ：https://buy.stripe.com/4gM7sLegP5Uh00U6BZ2kw00\n決済の完了後2営業日以内に、当法人からカスタマーハラスメント・就活等セクハラ対策の雛形一式（14ファイル）を ZIP ファイルにしてメールに添付してお送りします。\n・銀行振込の場合\nフォームの「ご相談内容・ご希望の時期」の欄に「銀行振込希望」とご記入いただいた方には、請求書をメールでお送りします。ご記入がなかった場合は、このメールに「銀行振込希望」とご返信ください。ご入金確認後3営業日以内に、ZIP ファイルをメールに添付してお送りします。\nZIP ファイルは約1MBです。添付ファイルを受け取れない設定の場合はお知らせください。別の方法でお届けします。\n〔個別チェック＋適用支援〕\n資料を拝見したうえで、納期をご相談します。担当（林）から2営業日以内にご連絡し、資料の受領後2営業日以内に納期と金額をお知らせします。点検をご希望の規程は、氏名等を記入していない空欄のものを、このメールに添付して返信してください。納期と金額にご了承いただいた時点で契約が成立します。その後、請求書をお送りし、ご入金確認後に作業を始めます。\n〔社員研修会〕\n担当（林）から2営業日以内にご連絡し、日程と金額をご相談します。ご希望の日時と人数を、このメールに返信してお知らせください。日程と金額にご了承いただいた時点で契約が成立します。その後、請求書をお送りし、ご入金確認後に実施します。\n〔労働条件通知書の個別チェック・適用支援〕\n資料を拝見したうえで、納期をご相談します。担当（林）から2営業日以内にご連絡し、資料の受領後2営業日以内に納期と金額をお知らせします。点検・改訂をご希望の様式は、氏名等を記入していない空欄のものを、このメールに添付して返信してください。納期と金額にご了承いただいた時点で契約が成立します。その後、請求書をお送りし、ご入金確認後に作業を始めます。\n\n■ お支払い\n〔カスハラ対策の雛形一式〕\nクレジットカード（決済手数料はかかりません）、または銀行振込（請求書の発行日から7日以内。振込手数料はお客様のご負担です）でお支払いください。お申込みから7日以内にカード決済も銀行振込のご希望のご連絡もない場合、または請求書のお支払い期限までにご入金がない場合は、お申込みを取り消したものとして扱います。雛形一式は電子ファイルのため、お届けした後の返品・返金はお受けしていません。料金は料金表（【料金表URL】）のとおりです。\n適格請求書（登録番号入りの領収書）が必要な場合は、このメールにご返信ください。当法人から PDF でお送りします。\n〔個別のご支援・社員研修会〕\n請求書を発行しますので、請求書の発行日から7日以内に銀行振込でお支払いください（振込手数料はお客様のご負担です。期限までにご入金がない場合は、ご契約を解除したものとして扱います）。料金は料金表（【料金表URL】）のとおりです。\n\n――――――――――――――――――――\n社会保険労務士法人 合同経営　受付担当：林\n住所：〒760-0080　香川県高松市木太町3396番地11\n電話：087-812-5031　FAX：087-812-5036\nメール：sr@godo-k.co.jp\nこのメールは、フォームからお申込み・ご依頼いただいた方に自動送信しています。\n法改正に関する案内メールは、フォームで「受け取る」を選ばれた方にのみお送りします。不要になった場合は sr@godo-k.co.jp までお知らせください。次回から送信しません。\n――――――――――――――――――――"};
 const NOTIFICATION_TEMPLATE="件名：【申込】{ご希望の内容}／{会社名}／{顧問契約あり・なし}\n\n受付担当者：林\n\n受付日時：{送信日時}\nご希望の内容：{ご希望の内容}\n契約区分：{顧問契約あり／なし（一般）}\n会社名：{会社名}\nご担当者名：{ご担当者名}（{部署・役職}）\nメール：{メールアドレス}\n電話：{電話番号}\n所在地：{所在地}\n従業員数：{従業員数}\n業種：{業種}\n現在の様式（②）：{現在の様式}\nご相談内容・希望時期：\n{ご相談内容}\n案内メールの受取：{受け取る／受け取らない}（同意日時：{送信日時}）\nご利用条件への同意：{同意}\n個人情報の取扱いへの同意：{同意}";
 'use strict';
 
 const FORM_SETTINGS = Object.freeze({
   mode: window.GODO_FORM_CONFIG?.mode === 'live' ? 'live' : 'preview',
   accepting: window.GODO_FORM_CONFIG?.accepting,
+  testMode: window.GODO_FORM_CONFIG?.mode === 'live' && window.GODO_FORM_CONFIG?.testMode === true,
+  restNonce: typeof window.GODO_FORM_CONFIG?.restNonce === 'string' ? window.GODO_FORM_CONFIG.restNonce : '',
   apiBase: window.GODO_FORM_CONFIG?.apiBase || '',
   serviceBaseUrl: window.GODO_FORM_CONFIG?.serviceBaseUrl || new URL('.', location.href).href,
+  serviceUrls: Object.freeze(window.GODO_FORM_CONFIG?.mode === 'live' && window.GODO_FORM_CONFIG?.serviceUrls && typeof window.GODO_FORM_CONFIG.serviceUrls === 'object' && !Array.isArray(window.GODO_FORM_CONFIG.serviceUrls) ? { ...window.GODO_FORM_CONFIG.serviceUrls } : {}),
   notificationEmail: 'sr@godo-k.co.jp',
   senderEmail: 'sr@godo-k.co.jp',
   replyToEmail: 'sr@godo-k.co.jp',
   freeDownloadUrl: '',
 });
 
+function serviceUrl(relative, fallbackBase = FORM_SETTINGS.serviceBaseUrl) {
+  const match = /^([^?#]+)(\?[^#]*)?(#.*)?$/.exec(relative);
+  const mapped = match && FORM_SETTINGS.serviceUrls[match[1]];
+  if (typeof mapped === 'string') {
+    try {
+      const url = new URL(mapped, fallbackBase);
+      if (url.protocol === 'https:' || url.protocol === 'http:') {
+        if (match[2]) new URLSearchParams(match[2]).forEach((value, key) => url.searchParams.set(key, value));
+        if (match[3]) url.hash = match[3];
+        return url.href;
+      }
+    } catch (_) { /* Keep the existing HTML-site URL when a mapping is unavailable. */ }
+  }
+  return new URL(relative, fallbackBase).href;
+}
+
+
+const STRIPE_PAYMENT_URL="https://buy.stripe.com/4gM7sLegP5Uh00U6BZ2kw00";
+const CARD_COMPLETION_TEXT="クレジットカードでお支払いの場合：次のボタンから Stripe の決済ページに進み、お手続きください（お申込みから7日以内）。決済ページでは、このお申込みと同じメールアドレスをご入力ください。決済の完了後2営業日以内に、雛形一式（14ファイル、約1MB）を ZIP ファイルにしてメールに添付してお送りします。";
+const BANK_COMPLETION_TEXT="銀行振込でお支払いの場合：請求書をメールでお送りします（「ご相談内容・ご希望の時期」の欄に「銀行振込希望」とご記入がない場合は、自動返信メールに「銀行振込希望」とご返信ください）。ご入金確認後3営業日以内にお送りします。";
+
 const PRODUCTS = Object.freeze({
   'n-template': { label: '労働条件通知書｜雛形一式（無償）', price: '無償', general: '自動返信メールでダウンロード先をご案内します。' },
-  'h-template': { label: 'カスハラ対策｜雛形一式', price: '22,000円（税込）／税抜20,000円', general: '請求書をご案内します。ご入金確認後3営業日以内に、当法人から ZIP ファイルをメールに添付してお送りします。' },
+  'h-template': { label: 'カスハラ対策｜雛形一式', price: '22,000円（税込）／税抜20,000円', general: 'お支払いは、クレジットカードまたは銀行振込をお選びいただけます。クレジットカードの場合は、送信後の画面と自動返信メールに決済ページのご案内が出ますので、お申込みから7日以内にお手続きください（決済手数料はかかりません）。決済の完了後2営業日以内に、当法人から雛形一式を ZIP ファイルにしてメールに添付してお送りします。銀行振込をご希望の場合は、「ご相談内容・ご希望の時期」の欄に「銀行振込希望」とご記入ください。請求書をお送りしますので、発行日から7日以内にお振込みください。ご入金確認後3営業日以内に、雛形一式をお送りします。' },
   'h-check-support': { label: 'カスハラ対策｜個別チェック＋適用支援', price: '55,000円（税込）／税抜50,000円', general: '点検から就業規則の変更・届出まで。研修は別メニューです。資料を拝見したうえで納期をご相談します。' },
-  'h-training': { label: 'カスハラ対策｜社員研修会', price: '44,000円／回（税込）／税抜40,000円', general: '1回60分です。複数のテーマをご希望の場合は、種類ごとにご依頼ください。日程はご相談のうえ決定します。' },
+  'h-training': { label: 'カスハラ対策｜社員研修会（1回60分）', price: '44,000円／回（税込）／税抜40,000円', general: '1回60分です。複数のテーマをご希望の場合は、種類ごとにご依頼ください。日程はご相談のうえ決定します。' },
   'n-check': { label: '労働条件通知書｜個別チェック', price: '16,500円／1様式（税込）／税抜15,000円', general: '今お使いの様式を点検します。資料を拝見したうえで納期をご相談します。' },
   'n-support': { label: '労働条件通知書｜適用支援', price: '71,500円〜（税込）／税抜65,000円〜', general: '資料を拝見したうえで金額・納期をご案内します。待遇差の説明資料は別途お見積りします。ご相談内容欄にご希望をご記入ください。' },
 });
@@ -31,10 +55,10 @@ const SUPPORT_PRICES = Object.freeze({
 });
 const TEMPLATE_ORDER_CONDITIONS = Object.freeze([
   ['分量', 'カスハラ・就活等セクハラ対策の雛形一式（Word・Excel・PDF 計14ファイル）1式'],
-  ['価格', '22,000円（税込）。送料はかかりません。振込手数料はお客様のご負担です'],
-  ['お支払い', '当法人がメールでお送りする請求書により、発行日から7日以内に銀行振込でお支払いください'],
-  ['お届け', 'ご入金確認後3営業日以内に、ご登録のメールアドレスへ ZIP ファイルを添付してお送りします'],
-  ['返品・キャンセル', '電子ファイルの性質上、お届けした後の返品・返金はお受けしていません。ご入金前であれば、メールでお申込みを取り消せます（お支払い期限までにご入金がない場合は、お申込みを取り消したものとして扱います）。当法人の誤りがある場合は、お気づきになった時点でご連絡ください。正しいファイルをお送りします'],
+  ['価格', '22,000円（税込）。送料はかかりません。クレジットカードの決済手数料はかかりません。銀行振込の場合、振込手数料はお客様のご負担です'],
+  ['お支払い', 'クレジットカード（送信後にご案内する Stripe の決済ページで、お申込みから7日以内にお手続きください。ご利用代金の引落し日は、お客様とカード会社とのご契約によります）、または銀行振込（当法人がメールでお送りする請求書により、発行日から7日以内）。銀行振込をご希望の場合は、「入力に戻る」で戻り、「ご相談内容・ご希望の時期」の欄に「銀行振込希望」とご記入ください'],
+  ['お届け', 'クレジットカードの場合は決済の完了後2営業日以内、銀行振込の場合はご入金確認後3営業日以内に、ご登録のメールアドレスへ ZIP ファイルを添付してお送りします'],
+  ['返品・キャンセル', '電子ファイルの性質上、お届けした後の返品・返金はお受けしていません。カード決済またはご入金の前であれば、メールでお申込みを取り消せます（お申込みから7日以内にカード決済も銀行振込のご希望のご連絡もない場合、または請求書のお支払い期限までにご入金がない場合は、お申込みを取り消したものとして扱います）。当法人の誤りがある場合は、お気づきになった時点でご連絡ください。正しいファイルをお送りします'],
 ]);
 const SUPPORT_PAYMENT = 'お見積りのご承諾後にお送りする請求書により、発行日から7日以内に銀行振込（振込手数料はお客様のご負担）。ご入金を確認してから作業・実施します';
 const SUPPORT_CANCELLATION = '個別のご支援：作業前は全額お返しします（返金の振込手数料は当法人が負担します）。作業を始めた後は、それまでの作業量に応じた額を差し引いてお返しします。社員研修会：実施日の7日前までは無料で、全額お返しします（返金の振込手数料は当法人が負担します）。7日前を過ぎてからは、講師の交通費の取消料など実際にかかった費用を差し引いてお返しします。当法人の都合で提供できない場合は、全額お返しします。お支払い期限までにご入金がない場合は、ご契約を解除したものとして扱います';
@@ -62,15 +86,25 @@ if (form) {
   const contract = () => form.querySelector('[name=contract]:checked')?.value || '';
   let confirmed = null;
   const live = FORM_SETTINGS.mode === 'live';
+  const testMode = FORM_SETTINGS.testMode;
   const intakeClosed = live && FORM_SETTINGS.accepting === false;
+  const closedNotice = '受付準備中のため送信できません。入力と確認画面まではお試しいただけます。入力内容の送信・保存やメール配信は行いません。';
+  const testNotice = '管理者専用の送信テストです。最後の送信ボタンで、ご入力のメールアドレスへの自動返信と担当者通知を実際に送信します。申込み・契約・請求にはなりません。';
   if (live) {
     document.querySelector('.preview')?.remove();
     const note = document.querySelector('#form-intro');
     note.textContent = intakeClosed
-      ? '現在、受付の準備中です。お問い合わせは ' + FORM_SETTINGS.replyToEmail + ' へお願いいたします。'
-      : '入力内容をご確認のうえ、お申込み・ご依頼ください。受付内容を担当者へ通知し、ご入力のメールアドレスへ自動返信をお送りします。';
+      ? '現在、受付の準備中です。入力と確認画面まではお試しいただけますが、入力内容の送信・保存やメール配信は行いません。お問い合わせは ' + FORM_SETTINGS.replyToEmail + ' へお願いいたします。'
+      : testMode ? testNotice : '入力内容をご確認のうえ、お申込み・ご依頼ください。受付内容を担当者へ通知し、ご入力のメールアドレスへ自動返信をお送りします。';
     note.className = 'live-form-note';
-    if (intakeClosed) form.querySelectorAll('fieldset, button[type="submit"]').forEach(control => { control.disabled = true; });
+    if (testMode) {
+      document.querySelector('h1').textContent = 'フォームの送信テスト';
+      form.querySelector('.form-legal-note').textContent = '以下の同意欄も動作確認のために操作します。チェックしても実際の申込み・契約や案内メールへの登録にはなりません。';
+      for (const name of ['mail', 'terms', 'privacy']) {
+        const label = form.elements[name].closest('label');
+        label.insertBefore(document.createTextNode('（テスト操作・契約ではありません）'), form.elements[name].nextSibling);
+      }
+    }
     document.querySelector('.copyright').textContent = '© 社会保険労務士法人 合同経営';
   }
 
@@ -126,9 +160,14 @@ if (form) {
       '{ご希望の内容}': PRODUCTS[data.product].label,
       '{送信日時}': '確認用（まだ送信されていません）',
       '【ダウンロード先URL】': FORM_SETTINGS.freeDownloadUrl || '［本番の自動返信メールに配布URLを表示］',
-      '【料金表URL】': new URL(data.product.startsWith('h-') ? 'harassment.html#detail' : 'notice.html#detail', location.href).href,
+      '【料金表URL】': serviceUrl(data.product.startsWith('h-') ? 'harassment.html#detail' : 'notice.html#detail', location.href),
     };
     let text = EMAIL_TEMPLATES[data.route];
+    if (data.route !== 'A') {
+      const flow = { 'h-template': 'カスハラ対策の雛形一式', 'h-check-support': '個別チェック＋適用支援', 'h-training': '社員研修会', 'n-check': '労働条件通知書の個別チェック・適用支援', 'n-support': '労働条件通知書の個別チェック・適用支援' };
+      const selected = [flow[data.product], data.product === 'h-template' ? 'カスハラ対策の雛形一式' : '個別のご支援・社員研修会'];
+      text = text.replace(/^〔([^〕]+)〕\n([\s\S]*?)(?=^〔|^■|^――|(?![\s\S]))/gm, (_match, heading, body) => selected.includes(heading) ? body.trim() + '\n\n' : '');
+    }
     Object.entries(replacements).forEach(([key, value]) => { text = text.replaceAll(key, value); });
     return text;
   }
@@ -157,7 +196,7 @@ if (form) {
 
   function commerceLink(text) {
     const link = element('a', text, 'commerce-link');
-    link.href = new URL('commerce.html', FORM_SETTINGS.serviceBaseUrl).href;
+    link.href = serviceUrl('commerce.html');
     link.target = '_blank'; link.rel = 'noopener';
     return link;
   }
@@ -198,8 +237,8 @@ if (form) {
 
   function renderConfirmation(data) {
     const support = isSupport(data.product);
-    const submitLabel = support ? '上記の内容で依頼する' : '上記の内容で申し込む';
-    result.replaceChildren(element('h2', support ? 'ご依頼内容の最終確認' : 'お申込み内容の最終確認'));
+    const submitLabel = testMode ? 'テストメールを送信する' : support ? '上記の内容で依頼する' : '上記の内容で申し込む';
+    result.replaceChildren(element('h2', testMode ? '送信テストの最終確認' : support ? 'ご依頼内容の最終確認' : 'お申込み内容の最終確認'));
     result.append(element('p', '内容をご確認ください。修正する場合は「入力に戻る」から変更できます。'));
     const list = element('dl', undefined, 'result-grid');
     row(list, 'ご希望の内容', PRODUCTS[data.product].label);
@@ -209,17 +248,22 @@ if (form) {
     Object.entries(labels).forEach(([key, label]) => row(list, label, data[key]));
     if (data.product.startsWith('n-')) row(list, '現在の様式', data.formats.join('・'));
     row(list, '案内メールの受取', data.mail ? '受け取る' : '受け取らない');
-    row(list, 'ご利用条件', '同意'); row(list, '個人情報の取扱い', '同意');
+    row(list, 'ご利用条件', testMode ? 'テストとして確認（契約ではありません）' : '同意'); row(list, '個人情報の取扱い', testMode ? 'テストとして確認（契約ではありません）' : '同意');
     result.append(list);
     const conditions = renderConditions(data);
     if (conditions) result.append(conditions);
-    result.append(element('p', live ? (support ? '次のボタンでお見積り・ご相談の依頼を送信します。' : '次のボタンでお申込みを送信します。') + '記載した内容で担当者へ通知し、自動返信メールをお送りします。' : '制作確認用です。次のボタンで完了画面を確認できます。お申込み・ご依頼やメールは送信されません。', 'notice'));
+    const submissionNotice = element('p', intakeClosed ? closedNotice : testMode ? testNotice : live ? (support ? '次のボタンでお見積り・ご相談の依頼を送信します。' : '次のボタンでお申込みを送信します。') + '記載した内容で担当者へ通知し、自動返信メールをお送りします。' : '制作確認用です。次のボタンで完了画面を確認できます。お申込み・ご依頼やメールは送信されません。', 'notice');
+    submissionNotice.id = 'submission-notice';
+    result.append(submissionNotice);
     const error = element('p', '', 'form-error'); error.hidden = true; error.setAttribute('role', 'alert'); result.append(error);
     const actions = element('div', undefined, 'form-actions');
     const back = element('button', '← 入力に戻る', 'button secondary'); back.type = 'button';
     back.addEventListener('click', () => showStep(1));
-    const finish = element('button', submitLabel, 'button'); finish.type = 'button';
+    const finish = element('button', intakeClosed ? '受付準備中のため送信できません' : submitLabel, 'button'); finish.type = 'button';
+    finish.disabled = intakeClosed;
+    finish.setAttribute('aria-describedby', 'submission-notice');
     finish.addEventListener('click', async () => {
+      if (intakeClosed) { finish.disabled = true; return; }
       if (!confirmed || finish.disabled) return;
       if (!live) { renderCompletion(confirmed); showStep(3); return; }
       finish.disabled = true; back.disabled = true; finish.textContent = '送信中…'; error.hidden = true;
@@ -245,25 +289,32 @@ if (form) {
   }
 
   async function sendApplication(data) {
+    if (intakeClosed) throw new Error(closedNotice);
     let api;
     try { api = new URL(FORM_SETTINGS.apiBase, location.href); }
     catch (_) { throw new Error('受付の設定を確認中です。時間をおいてお試しください。'); }
     if (api.origin !== location.origin || !/^https?:$/.test(api.protocol)) throw new Error('受付の接続先を確認できませんでした。');
     if (!api.href.endsWith('/')) api = new URL(api.href + '/');
+    if (testMode && !FORM_SETTINGS.restNonce) throw new Error('管理者のログインを確認できませんでした。画面を開き直してお試しください。');
+    const configUrl = new URL('config', api), applicationUrl = new URL('applications', api);
+    const authHeaders = testMode ? { 'X-WP-Nonce': FORM_SETTINGS.restNonce } : {};
+    if (testMode) { configUrl.searchParams.set('test', '1'); applicationUrl.searchParams.set('test', '1'); }
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20000);
     try {
-      const configResponse = await fetch(new URL('config', api), { credentials: 'same-origin', cache: 'no-store', signal: controller.signal });
+      const configResponse = await fetch(configUrl, { credentials: 'same-origin', cache: 'no-store', headers: authHeaders, signal: controller.signal });
       const config = await configResponse.json();
       if (!configResponse.ok || !config.enabled) throw new Error('現在、受付の準備中です。お問い合わせは ' + FORM_SETTINGS.replyToEmail + ' へお願いいたします。');
+      if (testMode && config.testMode !== true) throw new Error('管理者専用の送信テストを確認できませんでした。画面を開き直してお試しください。');
       if (data.product === 'n-template' && !config.freeTemplateAvailable) throw new Error('無料雛形のダウンロード準備中です。お問い合わせは ' + FORM_SETTINGS.replyToEmail + ' へお願いいたします。');
-      const response = await fetch(new URL('applications', api), {
+      const response = await fetch(applicationUrl, {
         method: 'POST', credentials: 'same-origin', signal: controller.signal,
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...data, token: config.token }),
+        headers: { 'Content-Type': 'application/json', ...authHeaders },
+        body: JSON.stringify({ ...data, token: config.token, ...(testMode ? { testMode: true } : {}) }),
       });
       const receipt = await response.json();
       if (!response.ok || receipt.accepted !== true) throw new Error(receipt.message || '送信を完了できませんでした。入力内容をご確認ください。');
+      if (testMode && receipt.testMode !== true) throw new Error('送信テストの受付結果を確認できませんでした。管理画面で状況をご確認ください。');
       return receipt;
     } catch (failure) {
       if (failure.name === 'AbortError' || failure instanceof TypeError || failure instanceof SyntaxError) throw new Error('受付結果を確認できませんでした。通信状態をご確認のうえ、同じ送信ボタンから再確認してください。');
@@ -274,6 +325,16 @@ if (form) {
   function renderCompletion(data, receipt) {
     const support = isSupport(data.product);
     completed.replaceChildren();
+    if (testMode) {
+      completed.append(element('span', '✓', 'completion-icon'), element('p', 'TEST COMPLETE', 'eyebrow'), element('h2', '送信テストを受け付けました'));
+      completed.append(element('p', 'テスト受付番号：' + receipt.receiptId));
+      completed.append(element('p', receipt.mailStatus === 'pending' ? '送信テストの内容は記録されていますが、メールの送信はまだ完了していません。管理画面で状況をご確認ください。' : 'テスト用の自動返信と担当者通知を手配しました。実際に届いたメールの内容をご確認ください。', 'notice'));
+      completed.append(element('p', 'これは管理者専用のテストです。実際の申込み・契約・請求や案内メールへの登録にはなりません。'));
+      const again = element('button', '別の内容でテストする', 'button secondary'); again.type = 'button';
+      again.addEventListener('click', () => { form.reset(); confirmed = null; result.replaceChildren(); completed.replaceChildren(); update(); showStep(1); });
+      completed.append(again);
+      return;
+    }
     completed.append(element('span', '✓', 'completion-icon'), element('p', live ? 'THANK YOU' : 'PREVIEW COMPLETE', 'eyebrow'));
     completed.append(element('h2', live ? (support ? 'ご依頼を受け付けました' : 'お申込みを受け付けました') : '完了画面の確認ができました'));
     if (live) {
@@ -281,7 +342,19 @@ if (form) {
       completed.append(element('p', receipt.mailStatus === 'pending' ? (support ? 'ご依頼内容は記録されています。メールのご案内は準備中です。再度ご依頼いただく必要はありません。' : 'お申込み内容は記録されています。メールのご案内は準備中です。再度お申し込みいただく必要はありません。') : 'ご入力のメールアドレスへ自動返信を手配しました。しばらくしても届かない場合は、迷惑メールフォルダをご確認のうえ、受付番号を添えてお問い合わせください。', 'notice'));
     } else completed.append(element('p', 'これは制作確認用の画面です。お申込み・ご依頼は受け付けておらず、入力内容の送信・保存やメール配信も行っていません。', 'notice'));
     const next = element('div', undefined, 'completion-next');
-    next.append(element('h3', live ? '今後の流れ' : '本番での受付後の流れ'), element('p', routeDescription(data.product, data.contract)));
+    next.append(element('h3', live ? '今後の流れ' : '本番での受付後の流れ'));
+    if (data.product === 'h-template' && data.contract === 'no') {
+      next.append(element('p', CARD_COMPLETION_TEXT));
+      const paymentButton = element('a', 'カードで支払う（Stripe の決済ページへ）', 'button stripe-payment');
+      paymentButton.href = live ? STRIPE_PAYMENT_URL : '#';
+      paymentButton.target = '_blank'; paymentButton.rel = 'noopener noreferrer';
+      next.append(paymentButton);
+      if (!live) {
+        paymentButton.addEventListener('click', event => { event.preventDefault(); alert('テストサイトでは決済ページへ移動しません。本番では Stripe の決済ページを別タブで開きます。'); });
+        next.append(element('p', 'テスト用の表示確認です。決済ページへの移動は停止しています。', 'muted'));
+      }
+      next.append(element('p', BANK_COMPLETION_TEXT));
+    } else next.append(element('p', routeDescription(data.product, data.contract)));
     if (support) next.append(element('p', SUPPORT_REQUEST_NOTICE + '。', 'request-notice'));
     if (!live && data.product === 'n-template') next.append(element('p', '無料雛形のダウンロード先は、本番の自動返信メールでご案内します。確認用画面には表示しません。', 'muted'));
     else if (data.product === 'h-template' && data.contract === 'yes') next.append(element('p', '雛形のダウンロード先は、担当者からメールでご案内します。', 'muted'));
@@ -291,20 +364,53 @@ if (form) {
     const actions = element('div', undefined, 'form-actions');
     const again = element('button', live ? '別の内容で申し込む・相談する' : '別の内容で試す', 'button secondary'); again.type = 'button';
     again.addEventListener('click', () => { form.reset(); confirmed = null; result.replaceChildren(); completed.replaceChildren(); update(); showStep(1); });
-    const home = element('a', 'サービス一覧へ →', 'button'); home.href = new URL('index.html#services', FORM_SETTINGS.serviceBaseUrl).href;
+    const home = element('a', 'サービス一覧へ →', 'button'); home.href = serviceUrl('index.html#services');
     actions.append(again, home); completed.append(actions);
   }
 
-  // Required text fields reject spaces-only input while keeping native validation.
-  form.querySelectorAll('input[type=text], input[type=tel], input[type=email]').forEach(input => {
-    const validate = () => input.setCustomValidity(input.required && !input.value.trim() ? 'この項目を入力してください。' : '');
-    input.addEventListener('input', validate);
-    form.addEventListener('change', validate);
+  // Keep visible contact-field errors in sync with native browser validation.
+  const textInputs = form.querySelectorAll('input[type=text], input[type=tel], input[type=email]');
+  const touchedInputs = new Set();
+  function validateInput(input, showError = touchedInputs.has(input)) {
+    if (input.name === 'phone') input.value = input.value.replace(/[０-９＋（）　]/g, c => c === '　' ? ' ' : String.fromCharCode(c.charCodeAt(0) - 0xFEE0));
+    const value = input.value.trim();
+    input.setCustomValidity('');
+    let message = input.required && !value ? 'この項目を入力してください。' : '';
+    if (value && input.name === 'email' && (input.validity.typeMismatch || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value))) {
+      message = 'メールアドレスは「name@example.co.jp」の形式で入力してください。';
+    }
+    if (value && input.name === 'phone' && (!/^[0-9+()\- ー－]{6,30}$/u.test(value) || value.replace(/[^0-9]/g, '').length < 6)) {
+      message = '電話番号は半角数字で入力してください（ハイフン・括弧・空白も使えます）。';
+    }
+    input.setCustomValidity(message);
+    const error = document.querySelector('#' + input.name + '-error');
+    if (error) {
+      const visible = Boolean(message && showError);
+      error.textContent = visible ? message : '';
+      error.hidden = !visible;
+      if (visible) input.setAttribute('aria-invalid', 'true');
+      else input.removeAttribute('aria-invalid');
+    }
+  }
+  textInputs.forEach(input => {
+    input.addEventListener('input', event => { if (!event.isComposing) validateInput(input); });
+    input.addEventListener('compositionend', () => validateInput(input));
+    input.addEventListener('blur', () => { touchedInputs.add(input); validateInput(input, true); });
+    input.addEventListener('invalid', () => { touchedInputs.add(input); validateInput(input, true); });
   });
-  form.addEventListener('change', update);
+  form.addEventListener('reset', () => {
+    touchedInputs.clear();
+    textInputs.forEach(input => {
+      input.setCustomValidity(''); input.removeAttribute('aria-invalid');
+      const error = document.querySelector('#' + input.name + '-error');
+      if (error) { error.textContent = ''; error.hidden = true; }
+    });
+  });
+  form.addEventListener('change', () => { update(); textInputs.forEach(input => validateInput(input)); });
   form.addEventListener('submit', event => {
     event.preventDefault();
-    if (intakeClosed || !form.reportValidity()) return;
+    textInputs.forEach(input => validateInput(input, true));
+    if (!form.reportValidity()) return;
     const p = product(), c = contract();
     if (!PRODUCTS[p] || !['yes', 'no'].includes(c)) return;
     const values = new FormData(form);
@@ -326,3 +432,20 @@ if (form) {
   form.querySelectorAll('[name=product]').forEach(input => { input.checked = input.value === initial; });
   update();
 }
+
+// Wide comparison tables keep their columns readable on small screens.
+document.querySelectorAll('.prose table').forEach((table, index) => {
+  if (![...table.rows].some(row => row.cells.length >= 3) || table.closest('.table-scroll')) return;
+  const hint = document.createElement('p');
+  hint.className = 'table-scroll-hint';
+  hint.id = 'table-scroll-hint-' + (index + 1);
+  hint.textContent = '← 表は左右にスクロールしてご覧ください →';
+  const scroller = document.createElement('div');
+  scroller.className = 'table-scroll';
+  scroller.tabIndex = 0;
+  scroller.setAttribute('role', 'region');
+  scroller.setAttribute('aria-label', '左右にスクロールできる表');
+  scroller.setAttribute('aria-describedby', hint.id);
+  table.before(hint, scroller);
+  scroller.append(table);
+});

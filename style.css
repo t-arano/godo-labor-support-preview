@@ -12,3 +12,25 @@
 .commerce-link{text-decoration:underline;text-underline-offset:3px;color:#776d30;overflow-wrap:anywhere}.return-note{display:block;margin-top:12px;font-size:13px;line-height:1.9}.form-legal-note{font-size:14px;line-height:1.9;margin:5px 0 24px}.order-conditions{margin:32px 0;padding:26px;border:2px solid #dfd69e;border-radius:18px;background:#fffdf4}.order-conditions h3{font-size:22px;margin:0 0 20px}.conditions-table{border-collapse:collapse;width:100%;table-layout:fixed;line-height:1.9;font-size:14px}.conditions-table th,.conditions-table td{padding:16px 14px;border:1px solid #e3dfc7;text-align:left;vertical-align:top;overflow-wrap:anywhere}.conditions-table th{width:155px;background:#f4efd5;font-weight:600}.conditions-table td{background:#fff}.order-conditions>.commerce-link{display:inline-block;margin-top:20px;font-size:14px}.request-notice{padding-top:16px;border-top:1px solid var(--line);line-height:1.9}@media(max-width:600px){.order-conditions{padding:18px 14px;margin:26px 0}.order-conditions h3{font-size:20px}.conditions-table,.conditions-table tbody,.conditions-table tr,.conditions-table th,.conditions-table td{display:block;width:100%}.conditions-table th{padding:11px 13px;border-bottom:0}.conditions-table td{padding:13px;line-height:1.9}.conditions-table tr+tr th{border-top:0}.form-legal-note{font-size:13px}}
 /* Commerce disclosure: readable rows and narrow price column. */
 .legal-details,.legal-prices{margin:26px 0;border-top:1px solid var(--line)}.legal-details>div{display:grid;grid-template-columns:180px minmax(0,1fr);border-bottom:1px solid var(--line)}.legal-details dt,.legal-details dd{padding:20px 18px;margin:0;overflow-wrap:anywhere}.legal-details dt{font-weight:600;background:#faf8e9}.legal-details dd{line-height:1.9}.legal-details dd p:first-child{margin-top:0}.legal-details dd p:last-child{margin-bottom:0}.legal-prices>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(135px,220px);border-bottom:1px solid var(--line)}.legal-prices dt,.legal-prices dd{margin:0;padding:14px 12px;background:transparent;line-height:1.9}.legal-prices dt{font-weight:600}.legal-prices dd{border-left:1px solid var(--line)}.service-card h3 a{color:inherit}@media(max-width:600px){.legal-details>div,.legal-prices>div{grid-template-columns:1fr}.legal-details dt{padding:14px 15px}.legal-details dd{padding:16px 15px}.legal-prices dt{padding:13px 0 3px}.legal-prices dd{padding:3px 0 13px;border-left:0}.legal-details .legal-prices{margin:0}}
+
+/* Contact errors remain next to the field after native validation closes. */
+.field-hint,.field-error{display:block;font-size:13px;line-height:1.7;margin-top:7px}
+.field-hint{color:#74705f}
+.field-error{color:#963e30;font-weight:600}
+input[aria-invalid=true]{border-color:#b55643!important;background:#fff9f7!important}
+
+/* Scroll only the comparison table, keeping the rest of the page in view. */
+.table-scroll{max-width:100%;overflow-x:auto;margin:28px 0;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.table-scroll:focus-visible{outline:3px solid #d99437;outline-offset:4px}
+.prose .table-scroll table{display:table;width:100%;min-width:640px;margin:0;overflow:visible}
+.table-scroll-hint{display:none}
+@media(max-width:700px){
+  .table-scroll-hint{display:block;margin:24px 0 8px;font-size:12px;color:#776d30}
+  .table-scroll-hint+.table-scroll{margin-top:0;margin-bottom:28px}
+}
+@media(max-width:600px){
+  header .brand{flex:0 1 205px;min-width:0}
+  header .brand img{width:205px;max-width:100%}
+  header nav{flex:0 0 auto}
+  header nav .button.small{white-space:nowrap;gap:6px;font-size:12px;padding:11px 12px}
+}
